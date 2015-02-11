@@ -1,0 +1,27 @@
+<div class="jumbotron">
+  <h1> Find and Replace!</h1>
+</div>
+
+<form action="/form" method="post">
+  <div class="form-group">
+    <label for="sentence">Give me a paragraph or sentence:</label>
+    <input id="sentence" name="sentence" placeholder="Ex: how now brown cow">
+
+    <label for="word_to_replace">Enter word to find: </label>
+    <input id="word_to_replace" name="word_to_replace" class="form-group" type="text">
+
+    <label for="new_word">Enter new word: </label>
+    <input id="new_word" name="new_word" class="form-group" type="text">
+
+    <button type="submit" class="btn btn-warning"> Go! </button>
+  </div>
+</form>
+
+
+<div class="well">
+  <p>
+    <%= @new_paragraph %>
+  </p>
+
+
+</div>

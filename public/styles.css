@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue;
+}
+
+.jumbotron {
+  background-color: orange;
+  color: purple;
+}
+
+.well {
+  color: purple;
+
+}
+
+em {
+  color: red;
+}
